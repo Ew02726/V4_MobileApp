@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.views.loginPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="V4" HorizontalTextAlignment="Center" FontSize="50" FontAttributes="Bold"/>
+                <Label Text="Volunteering Made Easy!" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="20"/>
+                <Image Source="mainIcon.png"/>
+                <Label Text="Please Log In To See Volunteering Opportunities!" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="Red" Padding="0,0,0,30"></Label>
+                <Grid Margin="20,0,20,0" ColumnSpacing="6">
+                      <Grid.RowDefinitions>
+                      
+                      <RowDefinition Height="30" />
+                      <RowDefinition Height="*" />
+                      <RowDefinition Height="20" />
+                      <RowDefinition Height="30" />
+                      </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                       <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                <Label Text="Email:" FontSize="20" Grid.Column="0" Grid.Row="0" HorizontalOptions="Start"/>
+                <Entry Placeholder="user@V4.com" Grid.Column="0" Grid.Row="1" />
+                <Label Text="Password:" FontSize="20" Grid.Column="0" Grid.Row="3" HorizontalOptions="Start"/>
+                <Entry Placeholder="********" Grid.Column="0" Grid.Row="4" IsPassword="True" />
+
+                </Grid>
+                <Button Text="Login" HorizontalOptions="CenterAndExpand"></Button>
+                <Grid Margin="20,10,20,10">
+                    <Grid.RowDefinitions></Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
+
+                    <Label Text="Forgot Passowrd?" Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center"></Label>
+                    <Label Text="Create Account?" Grid.Column="1" Grid.Row="0" HorizontalTextAlignment="Center"></Label>
+                </Grid>
+  
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
