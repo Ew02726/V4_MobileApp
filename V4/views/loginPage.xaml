@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.views.loginPage">
     <ContentPage.Content>
-        <ScrollView>
+        <ScrollView Orientation="Vertical">
             <StackLayout>
                 <Label Text="V4" HorizontalTextAlignment="Center" FontSize="50" FontAttributes="Bold"/>
                 <Label Text="Volunteering Made Easy!" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="20"/>
@@ -33,8 +33,31 @@
                     <Label Text="Forgot Passowrd?" Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center"></Label>
                     <Label Text="Create Account?" Grid.Column="1" Grid.Row="0" HorizontalTextAlignment="Center"></Label>
                 </Grid>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="3" Color="Gray" Margin="5"/>
 
+                <Label Text="Frequently Asked Questions" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center" Padding="15"/>
                 
+
+                    <Button Text="What Is V4?" BackgroundColor="Green" TextColor="White"></Button>
+
+                <Label Text="V4 is a non-profit that seeks to promit giving back to the community. It allows locals to either volunteer to community needs or post a community need."/>
+
+                    <Button Text="How Do I Volunteer?" BackgroundColor="Green" TextColor="White"></Button>
+                    <Label Text="After succesfully creating an account, you will be prompted to your Dashboard page! You can immediately see local volunteering opportunities that you can volunteer for!"/>
+
+                <Button Text="How Do I Post A Volunteer Opportunity?" BackgroundColor="Green" TextColor="White"></Button>
+                    <Label Text="After succesfully creating an account, you will be prompted to your Dashboard page! You can switch to the post an opportunity tab and follow the prompt!"/>
+
+                <Button Text="Contact Us" BackgroundColor="Green" TextColor="White"></Button>
+                    <Label Text="After succesfully creating an account, you will be prompted to your Dashboard page! You can switch to the post an opportunity tab and follow the prompt!"/>
+
+                <Button Text="Donate" BackgroundColor="Green" TextColor="White"></Button>
+                    <Label Text="After succesfully creating an account, you will be prompted to your Dashboard page! You can switch to the post an opportunity tab and follow the prompt!"/>
+
+                <Button Text="Report" BackgroundColor="Green" TextColor="White"></Button>
+                    <Label Text="After succesfully creating an account, you will be prompted to your Dashboard page! You can switch to the post an opportunity tab and follow the prompt!"/>
+                
+
             </StackLayout>
 
 
