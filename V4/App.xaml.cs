@@ -11,7 +11,7 @@ namespace V4
         {
             InitializeComponent();
 
-            MainPage = new loginPage();
+            MainPage = new createAccountPage();
         }
 
         protected override void OnStart()
