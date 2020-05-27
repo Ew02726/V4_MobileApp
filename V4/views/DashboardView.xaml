@@ -113,5 +113,24 @@
 
         </Grid>
     </ContentPage>
-    <ContentPage Title="Statistics" IconImageSource="stats.png"/>
+    <ContentPage Title="Statistics" IconImageSource="stats.png">
+        <Grid Margin="15">
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="User Statistics" Grid.Column="0" Grid.Row="0" FontSize="30" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Image Source="mobileIcon.png" WidthRequest="100" HeightRequest="150"/>
+
+                    <Label Text="Total Hours Volunteered:" FontAttributes="Bold" Grid.Column="0" Grid.Row="1" FontSize="18"/>
+                    <Label Text="Amount Of Hours This Week:" FontAttributes="Bold" Grid.Column="0" Grid.Row="2" FontSize="18"/>
+                    <Label Text="Total Opportunites Completed:" FontAttributes="Bold" Grid.Column="0" Grid.Row="3" FontSize="18"/>
+
+
+                    <Button Text="Settings" WidthRequest="200" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"/>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+
+
+
+     </ContentPage>
 </TabbedPage>
