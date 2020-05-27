@@ -11,7 +11,7 @@ namespace V4
         {
             InitializeComponent();
 
-            MainPage = new SettingsView();
+            MainPage = new LeaderboardsView();
         }
 
         protected override void OnStart()

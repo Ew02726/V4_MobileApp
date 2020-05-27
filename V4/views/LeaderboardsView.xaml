@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.views.LeaderboardsView">
+    <ContentPage.Content>
+        <Grid>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="Green" HeightRequest="30" IsClippedToBounds="True">
+                    <Label Text="Leaderboards" Grid.Column="0" Grid.Row="0" FontSize="23" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="White"></Label>
+
+                </Frame>
+                
+                <Image Source="mobileIcon.png" WidthRequest="100" HeightRequest="150"/>
+                <Label Text="Leaderboards are based off hours from completed volunteer opportunities." HorizontalTextAlignment="Center" TextColor="Red"/>
+                <Frame CornerRadius="8" BorderColor="Black" HasShadow="True" Margin="15">
+               <Grid>
+                
+                   <Label Text="Weekly Leaderboards" HorizontalTextAlignment="Center" FontAttributes="Bold" Grid.Row="0" FontSize="20"/>
+                   <Label Text="#Hours" HorizontalTextAlignment="End" FontAttributes="Bold" Grid.Row="0" FontSize="15"/>
+                   <Label Text="1:" Grid.Row="1" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="2:" Grid.Row="2" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="3:" Grid.Row="3" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="4:" Grid.Row="4" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="5:" Grid.Row="5" FontSize="20" FontAttributes="Bold"></Label>
+                
+
+               
+                    <Label Text="Monthly Leaderboards" HorizontalTextAlignment="Center" FontAttributes="Bold" Grid.Row="6" FontSize="20"/>
+                   <Label Text="1:" Grid.Row="7" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="2:" Grid.Row="8" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="3:" Grid.Row="9" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="4:" Grid.Row="10" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="5:" Grid.Row="11" FontSize="20" FontAttributes="Bold"></Label>
+
+                
+                    <Label Text="All-Time Leaderboards" HorizontalTextAlignment="Center" FontAttributes="Bold" Grid.Row="12" FontSize="20"/>
+
+                   <Label Text="1:" Grid.Row="13" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="2:" Grid.Row="14" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="3:" Grid.Row="15" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="4:" Grid.Row="16" FontSize="20" FontAttributes="Bold"></Label>
+                   <Label Text="5:" Grid.Row="17" FontSize="20" FontAttributes="Bold"></Label>
+                </Grid>
+                
+
+               </Frame>
+            </StackLayout>
+            
+        </ScrollView>
+            </Grid>
+    </ContentPage.Content>
+</ContentPage>
+
