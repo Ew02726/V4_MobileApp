@@ -2,11 +2,11 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.views.DashboardView" BarBackgroundColor="Green" >
     <!--Pages can be added as references or inline-->
     <ContentPage Title="Volunteer" IconImageSource="volunteer.png">
-        
+         <ScrollView>
         <Grid Margin="15"> 
       
         <Frame BackgroundColor="WhiteSmoke" CornerRadius="8" HasShadow="True" BorderColor="Gray">
-            <ScrollView>
+           
             <StackLayout>
             <Label Text="Volunteer Opportunities" HorizontalTextAlignment="Center" FontSize="30" FontAttributes="Bold"/>
 
@@ -42,23 +42,24 @@
                     </Grid>
                 </Frame>
             </StackLayout>
-            </ScrollView>
+            
         </Frame>
            
 
        </Grid>
-
+</ScrollView>
 
     </ContentPage>
 
     
     <ContentPage Title="Dashboard" IconImageSource="homeIcon.png">
+        <ScrollView>
         <Grid Margin="15">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             
-                <ScrollView>
+                
             <StackLayout>
                 
             <Label Text="Welcome, User!" Grid.Column="0" Grid.Row="0" FontSize="40" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
@@ -109,9 +110,10 @@
                 </Frame>
                     
                 </StackLayout>
-                </ScrollView>
+                
 
         </Grid>
+            </ScrollView>
     </ContentPage>
     <ContentPage Title="Statistics" IconImageSource="stats.png">
         <Grid Margin="15">

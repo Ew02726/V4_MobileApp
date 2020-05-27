@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.views.SettingsView">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="Green" HeightRequest="30" IsClippedToBounds="True">
+                    <Label Text="Settings" Grid.Column="0" Grid.Row="0" FontSize="23" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="White"></Label>
+
+                </Frame>
+                
+                <Image Source="mobileIcon.png" WidthRequest="100" HeightRequest="150"/>
+
+                <Button Margin="10" CornerRadius="8" Text="Change Password"/>
+                <Button Margin="10" CornerRadius="8" Text="Delete An Opportunity"/>
+                <Button Margin="10" CornerRadius="8" Text="Contact Support"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

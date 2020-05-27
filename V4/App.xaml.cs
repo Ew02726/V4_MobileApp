@@ -11,7 +11,7 @@ namespace V4
         {
             InitializeComponent();
 
-            MainPage = new DashboardView();
+            MainPage = new SettingsView();
         }
 
         protected override void OnStart()
