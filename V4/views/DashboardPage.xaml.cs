@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace V4
 {
-    public partial class AppShell : Shell
+    public partial class DashboardPage : ContentPage
     {
-        public AppShell()
+        public DashboardPage()
         {
             InitializeComponent();
         }

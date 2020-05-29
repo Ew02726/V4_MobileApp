@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.AppShell">
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
-    
-</ContentPage>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.AppShell"
+       xmlns:local="clr-namespace:V4.views">
+
+    <FlyoutItem Title="V4: The Volunteering Application" FlyoutDisplayOptions="AsMultipleItems" Shell.TabBarIsVisible="False" Shell.BackgroundColor="Green">
+        <ShellContent Title="V4: The Volunteering Application" Icon="" ContentTemplate="{DataTemplate local:loginPage}"/>
+   
+    </FlyoutItem>
+
+    <FlyoutItem Title="Login" Shell.BackgroundColor="#E1E289">
+    <Tab Title="Login">
+            <ShellContent ContentTemplate="{DataTemplate local:loginPage}"/>
+        </Tab>
+    </FlyoutItem>
+</Shell>
 

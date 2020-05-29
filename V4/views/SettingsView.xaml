@@ -3,8 +3,8 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Frame BackgroundColor="Green" HeightRequest="30" IsClippedToBounds="True">
-                    <Label Text="Settings" Grid.Column="0" Grid.Row="0" FontSize="23" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="White"></Label>
+                <Frame BackgroundColor="#E1E289" HeightRequest="30" IsClippedToBounds="True" Margin="15">
+                    <Label Text="Settings" Grid.Column="0" Grid.Row="0" FontSize="23" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="#0A210F"></Label>
 
                 </Frame>
                 

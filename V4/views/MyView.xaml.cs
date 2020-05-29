@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
 
-namespace V4
+namespace V4.views
 {
-    public partial class AppShell : Shell
+    public partial class MyView : ContentView
     {
-        public AppShell()
+        public MyView()
         {
             InitializeComponent();
         }

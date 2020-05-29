@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using V4.viewModels;
 using Xamarin.Forms;
 
 namespace V4.views
@@ -10,6 +10,12 @@ namespace V4.views
         public loginPage()
         {
             InitializeComponent();
+
+            BindingContext = new loginViewModel(this.Navigation);
+        }
+
+        void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
         }
     }
 }

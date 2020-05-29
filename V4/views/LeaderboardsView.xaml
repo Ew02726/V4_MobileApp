@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.views.LeaderboardsView">
-    <ContentPage.Content>
-        <Grid>
+    <ContentPage.Content >
+        <Grid >
         <ScrollView>
             <StackLayout>
-                <Frame BackgroundColor="Green" HeightRequest="30" IsClippedToBounds="True">
-                    <Label Text="Leaderboards" Grid.Column="0" Grid.Row="0" FontSize="23" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="White"></Label>
+                <Frame BackgroundColor="#E1E289" HeightRequest="30" IsClippedToBounds="True" Margin="15">
+                    <Label Text="Leaderboards" Grid.Column="0" Grid.Row="0" FontSize="23" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="#0A210F"></Label>
 
                 </Frame>
                 
-                <Image Source="mobileIcon.png" WidthRequest="100" HeightRequest="150"/>
+                <Image Source="mobileIcon.png" WidthRequest="100" HeightRequest="100"/>
                 <Label Text="Leaderboards are based off hours from completed volunteer opportunities." HorizontalTextAlignment="Center" TextColor="Red"/>
                 <Frame CornerRadius="8" BorderColor="Black" HasShadow="True" Margin="15">
                <Grid>
