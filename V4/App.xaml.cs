@@ -11,7 +11,7 @@ namespace V4
         {
             InitializeComponent();
 
-            MainPage = new AppShell2();
+            MainPage = new AppShell();
         }
 
         protected override void OnStart()

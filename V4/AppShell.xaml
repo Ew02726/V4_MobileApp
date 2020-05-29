@@ -7,7 +7,7 @@
    
     </FlyoutItem>
 
-    <FlyoutItem Title="Login">
+    <FlyoutItem Title="Login" Shell.BackgroundColor="#E1E289">
     <Tab Title="Login">
             <ShellContent ContentTemplate="{DataTemplate local:loginPage}"/>
         </Tab>

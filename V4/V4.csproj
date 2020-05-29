@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="views\" />
+    <Folder Include="viewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="views\MyView.xaml.cs" />

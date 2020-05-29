@@ -21,6 +21,8 @@
         <ShellContent Title="Leaderboards" Shell.BackgroundColor="#0A210F" Icon="" ContentTemplate="{DataTemplate local:LeaderboardsView}"/>
 
         <ShellContent Title="Settings" Shell.BackgroundColor="#0A210F" Icon="" ContentTemplate="{DataTemplate local:SettingsView}"/>
+
+        <ShellContent Title="Logout" Shell.BackgroundColor="#0A210F" Icon="" ContentTemplate="{DataTemplate local:loginPage}"/>
     </FlyoutItem>
 
 
