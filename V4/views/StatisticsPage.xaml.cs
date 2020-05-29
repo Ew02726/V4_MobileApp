@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace V4
+namespace V4.views
 {
-    public partial class AppShell : Shell
+    public partial class StatisticsPage : ContentPage
     {
-        public AppShell()
+        public StatisticsPage()
         {
             InitializeComponent();
         }

@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace V4
 {
-    public partial class AppShell : Shell
+    public partial class AppShell2 : Shell
     {
-        public AppShell()
+        public AppShell2()
         {
             InitializeComponent();
         }

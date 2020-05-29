@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.views.StatisticsPage">
+    <ContentPage.Content>
+        <Grid Margin="15">
+            <ScrollView>
+                <StackLayout>
+                    <Frame BackgroundColor="#E1E289" HeightRequest="30" IsClippedToBounds="True">
+                    <Label Text="User Statistics" Grid.Column="0" Grid.Row="0" FontSize="23" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="#0A210F"></Label>
+
+                    </Frame>
+
+                    
+                    <Image Source="mobileIcon.png" WidthRequest="100" HeightRequest="150"/>
+
+                    <Label Text="Total Hours Volunteered:" FontAttributes="Bold" Grid.Column="0" Grid.Row="1" FontSize="18"/>
+                    <Label Text="Amount Of Hours This Week:" FontAttributes="Bold" Grid.Column="0" Grid.Row="2" FontSize="18"/>
+                    <Label Text="Total Opportunites Completed:" FontAttributes="Bold" Grid.Column="0" Grid.Row="3" FontSize="18"/>
+
+
+                    <Button Text="Settings" WidthRequest="200" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"/>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

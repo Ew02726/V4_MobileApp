@@ -17,4 +17,13 @@
   <ItemGroup>
     <Folder Include="views\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="views\MyView.xaml.cs" />
+    <Compile Remove="views\DashboardPage.xaml.cs" />
+    <Compile Remove="views\DashboardPage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="DashboardPage.xaml" />
+    <EmbeddedResource Remove="views\DashboardPage.xaml" />
+  </ItemGroup>
 </Project>

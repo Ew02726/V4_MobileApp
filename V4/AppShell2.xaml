@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.AppShell2" xmlns:local="clr-namespace:V4.views">
+
+    <FlyoutItem Title="V4: The Volunteering Application" FlyoutDisplayOptions="AsMultipleItems" Shell.TabBarIsVisible="True" Shell.BackgroundColor="#0A210F" Shell.TabBarTitleColor="#0A210F" Shell.TabBarBackgroundColor="#E1E289">
+        <ShellContent Title="Dashboard" Icon="mobileIcon.png" ContentTemplate="{DataTemplate local:DashPage}"/>
+
+        <Tab Title="Volunteer" Icon="volunteer.png">
+            <ShellContent Title="Volunteer" Icon="" ContentTemplate="{DataTemplate local:VolunteerPage}"/>
+            </Tab>
+        
+        <Tab Title="Statistics" Icon="stats.png">
+            <ShellContent Title="Statistics" Icon="" ContentTemplate="{DataTemplate local:StatisticsPage}"/>
+        </Tab>
+
+        
+
+     </FlyoutItem>
+
+    <FlyoutItem Title="Settings" FlyoutDisplayOptions="AsMultipleItems" Shell.TabBarIsVisible="False">
+
+        <ShellContent Title="Leaderboards" Shell.BackgroundColor="#0A210F" Icon="" ContentTemplate="{DataTemplate local:LeaderboardsView}"/>
+
+        <ShellContent Title="Settings" Shell.BackgroundColor="#0A210F" Icon="" ContentTemplate="{DataTemplate local:SettingsView}"/>
+    </FlyoutItem>
+
+
+
+</Shell>

@@ -11,7 +11,7 @@ namespace V4
         {
             InitializeComponent();
 
-            MainPage = new LeaderboardsView();
+            MainPage = new AppShell2();
         }
 
         protected override void OnStart()

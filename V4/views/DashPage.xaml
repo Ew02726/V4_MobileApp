@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="V4.views.DashPage">
+    <ContentPage.Content>
+         <ScrollView>
+        <Grid Margin="15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+                
+            <StackLayout>
+                
+            <Label Text="Welcome, User!" Grid.Column="0" Grid.Row="0" FontSize="40" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+            <Frame Grid.Column="0" Grid.Row="1" BorderColor="Black" CornerRadius="8" HasShadow="True" Padding="0,10,0,10">
+                <Label Text="News From The Community" HorizontalTextAlignment="Center" FontSize="20"/>
+
+            </Frame>
+                
+            
+                <Label Text="What You've Volunteered For" HorizontalTextAlignment="Center" FontSize="20"/>
+
+                <Frame Grid.Column="0" Grid.Row="1" BorderColor="Black" CornerRadius="8" HasShadow="True" Padding="0,10,0,10" BackgroundColor="Beige">
+
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"></RowDefinition>
+                        </Grid.RowDefinitions>
+                    <Label Text="Title:" Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+
+                    <Label Text="Description:" Grid.Column="0" Grid.Row="2"></Label>
+                    <Image Source="mobileIcon.png" Grid.Column="0" Grid.Row="1" HeightRequest="100" BackgroundColor="white" WidthRequest="50"></Image>
+                    </Grid>
+                
+
+                </Frame>
+
+                <Frame Grid.Column="0" Grid.Row="1" BorderColor="Black" CornerRadius="8" HasShadow="True" Padding="0,10,0,10" BackgroundColor="Beige">
+
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"></RowDefinition>
+                        </Grid.RowDefinitions>
+                    <Label Text="Title:" Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+
+                    <Label Text="Description:" Grid.Column="0" Grid.Row="2"></Label>
+                    <Image Source="mobileIcon.png" Grid.Column="0" Grid.Row="1" HeightRequest="100" BackgroundColor="white" WidthRequest="50"></Image>
+                    </Grid>
+                
+
+                </Frame>
+                    
+                </StackLayout>
+                
+
+        </Grid>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
