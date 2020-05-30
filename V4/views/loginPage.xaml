@@ -29,9 +29,18 @@
                 <Grid Margin="20,10,20,10">
                     <Grid.RowDefinitions></Grid.RowDefinitions>
                     <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
-
-                    <Label Text="Forgot Passowrd?" Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center"></Label>
-                    <Label Text="Create Account?" Grid.Column="1" Grid.Row="0" HorizontalTextAlignment="Center"></Label>
+                    <!--Forgot Password Page-->
+                    <Label Text="Forgot Passowrd?" Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding forgotPassword}"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <!--Create Account Page-->
+                    <Label Text="Create Account?" Grid.Column="1" Grid.Row="0" HorizontalTextAlignment="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding createAccount}"/>
+                        </Label.GestureRecognizers>
+                    </Label>
                 </Grid>
                 <BoxView HorizontalOptions="FillAndExpand" HeightRequest="3" Color="Gray" Margin="5"/>
 

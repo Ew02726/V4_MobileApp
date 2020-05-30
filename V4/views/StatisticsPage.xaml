@@ -17,7 +17,7 @@
                     <Label Text="Total Opportunites Completed:" FontAttributes="Bold" Grid.Column="0" Grid.Row="3" FontSize="18"/>
 
 
-                    <Button Text="Settings" WidthRequest="200" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"/>
+                    <Button Text="Settings" WidthRequest="200" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Command="{Binding settings}"/>
                 </StackLayout>
             </ScrollView>
         </Grid>

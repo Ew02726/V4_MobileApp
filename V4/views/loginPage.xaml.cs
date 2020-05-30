@@ -14,8 +14,6 @@ namespace V4.views
             BindingContext = new loginViewModel(this.Navigation);
         }
 
-        void Button_Clicked(System.Object sender, System.EventArgs e)
-        {
-        }
+       
     }
 }
